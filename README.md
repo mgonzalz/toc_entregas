@@ -1,32 +1,14 @@
-# Técnicas de Optimización y Control: Caso práctico.
-## Repositorio.
-- Link: https://github.com/mgonzalz/toc_entrega-1.git
-- Usuario: @mgonzalz
-## Contenido.
-### Estructura del Proyecto.
-- Caso práctico: Este archivo Jupyter Notebook resuelve todo el ejercicio de manera interactiva. En él, se pueden visualizar las curvas, realizar simulaciones y analizar los resultados de forma clara y concisa.
-- Newton-Raphson: La carpeta alberga el archivo `main.py`, punto de entrada del proyecto y ejecuta el algoritmo de Newton-Raphson. La carpeta modulos alberga las funciones y clases necesarias para resolver el problema, permitiendo que el proyecto se ejecute y funcione correctamente.
+# Técnicas de Optimización y Control.
 
-#### Estructura de Carpetas.
-````
-/toc_entrega-1/
-│
-├── newton_raphson/
-│   ├── main.py          # Archivo principal que ejecuta el algoritmo de Newton-Raphson.
-│
-│   ├── modulos/
-│      ├── funcion.py       # Contiene las clases necesarias para los cálculos.
-│      ├── newton.py        # Implementación de la función de Newton-Raphson.
-│
-├── caso_practico.ipynb  # Notebook que resuelve todo el ejercicio.
-│
-└── requirements.txt      # Archivo con las dependencias del proyecto.
-````
+## Información.
 
-### Ejecución Newton-Raphson.
-Ejecuta el archivo principal `main.py` ubicado en la carpeta `newton-raphson` para la resolución del sistema de ecuaciones propuesto a través de Newton-Raphson.
+Este repositorio contiene los trabajos realizados en la asignatura **Técnicas de Optimización y Control**, organizados en ramas según los temas tratados. Los ejercicios se resuelven íntegramente en **Python**, con las dependencias especificadas en un archivo `requirements.txt`. Además, se incluyen scripts necesarios para ejecutar las soluciones y análisis.
 
-Para poder instalar todas las dependencias necesarias:
-```bash
-pip install -r requirements.txt
-```
+La resolución de cada ejercicio se encuentra en un archivo **Jupyter Notebook**, que permite interactuar con las soluciones, visualizar gráficos y realizar simulaciones. Cada trabajo también está acompañado por un documento más detallado, redactado en **LaTeX** y proporcionado en formato **PDF**, que incluye explicaciones ampliadas y conclusiones.
+
+### Ramas del Repositorio.
+- **[Rama Variaciones y Control.](https://github.com/mgonzalz/toc_entregas/tree/variaciones-control)** Contiene el trabajo final sobre los temas **Cálculo de Variaciones** y **Control Óptimo**, enfocado en la optimización de sistemas económicos.
+
+- **[Rama Programación Dinámica.](https://github.com/mgonzalz/toc_entregas/tree/p-dinamica)** Contiene el trabajo final sobre los temas **Control Automático** y **Programación Dinámica**. Incluye la modelización y regulación de sistemas dinámicos con soluciones óptimas y simulaciones prácticas.
+
+Este repositorio ofrece un enfoque práctico y profesional, integrando herramientas de programación y documentación para facilitar la comprensión y aplicación de los conceptos teóricos.
